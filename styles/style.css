@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  flex-flow: column wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-width: 352px;
+  height: 100vh;
+  background-color: #121212;
+}
+
+.heading {
+  font-size: 32px;
+  color: #f5c518;
+}
+
+.homeButton {
+  border: 2px solid yellowgreen;
+  border-radius: 32px;
+  background-color: black;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.button {
+  padding: 16px 18px;
+  font-size: 32px;
+  color: #2596be;
+  letter-spacing: 8px;
+}
+
+.slogan {
+  font-size: 16px;
+  color: #f5c518;
+}

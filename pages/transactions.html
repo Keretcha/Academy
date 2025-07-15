@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transactions</title>
+    <link rel="stylesheet" href="/styles/reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/styles/transactions.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <div class="logo">
+          <a class="logoItems" href="/index.html">
+            <img
+              class="logoItemsImage"
+              src="/media/logo/logo.png"
+              alt="Bee Rich Logo"
+              width="60"
+            />
+            <span>Bee Rich</span>
+          </a>
+        </div>
+
+        <input type="checkbox" id="mode-toggle" />
+        <label for="mode-toggle" class="mode-switch">
+          <i class="fa-solid fa-sun"></i>
+          <i class="fa-solid fa-moon"></i>
+        </label>
+
+        <div class="menu-wrapper">
+          <input type="checkbox" id="menu-toggle" />
+          <label for="menu-toggle" class="menu-icon">
+            <i class="fa-solid fa-bars"></i>
+          </label>
+
+          <nav class="menu">
+            <ul>
+              <li><a href="/index.html">Home</a></li>
+              <li><a href="/pages/dashboard.html">Dashboard</a></li>
+              <li><a href="#">Transactions</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <div class="transactionsContainer">
+      <h1 class="heading">Transactions</h1>
+
+      <!-- Summary Section -->
+      <div class="summary-container">
+        <div class="summary-card">
+          <img src="/media/images/balance.png" alt="Balance Icon" />
+          <div class="summary-info">
+            <span class="label">ნაშთი</span>
+            <span class="amount">4,573.00 ₾</span>
+          </div>
+        </div>
+        <div class="summary-card">
+          <img src="/media/images/income.png" alt="Income Icon" />
+          <div class="summary-info">
+            <span class="label">შემოსავლის ზრდა</span>
+            <span class="amount green">+10%</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Transactions Section -->
+      <div class="transactionSection">
+        <span class="transactionDate">July</span>
+
+        <div class="transactionItem">
+          <div class="transactionInfo">
+            <img src="/media/images/users.svg" alt="User" />
+            <div class="transactionName">
+              <span>ჩარიცხვა</span>
+              <span>შპს "მაგალითი"</span>
+            </div>
+          </div>
+          <div class="count">100$</div>
+        </div>
+
+        <div class="transactionItem">
+          <div class="transactionInfo">
+            <img src="/media/images/users.svg" alt="User" />
+            <div class="transactionName">
+              <span>ჩარიცხვა</span>
+              <span>შპს "მაგალითი"</span>
+            </div>
+          </div>
+          <div class="count">150$</div>
+        </div>
+
+        <div class="transactionItem">
+          <div class="transactionInfo">
+            <img src="/media/images/users.svg" alt="User" />
+            <div class="transactionName">
+              <span>ჩარიცხვა</span>
+              <span>შპს "მაგალითი"</span>
+            </div>
+          </div>
+          <div class="count">200$</div>
+        </div>
+      </div>
+
+      <div class="transactionSection">
+        <span class="transactionDate">June</span>
+
+        <div class="transactionItem">
+          <div class="transactionInfo">
+            <img src="/media/images/users.svg" alt="User" />
+            <div class="transactionName">
+              <span>პირადი გადარიცხვა</span>
+              <span>გიორგი გიორგიშვილი</span>
+            </div>
+          </div>
+          <div class="count">300$</div>
+        </div>
+
+        <div class="transactionItem">
+          <div class="transactionInfo">
+            <img src="/media/images/users.svg" alt="User" />
+            <div class="transactionName">
+              <span>ჩარიცხვა</span>
+              <span>Bee Rich</span>
+            </div>
+          </div>
+          <div class="count">400$</div>
+        </div>
+
+        <div class="transactionItem">
+          <div class="transactionInfo">
+            <img src="/media/images/users.svg" alt="User" />
+            <div class="transactionName">
+              <span>ჩარიცხვა</span>
+              <span>შპს "მაგალითი"</span>
+            </div>
+          </div>
+          <div class="count">500$</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

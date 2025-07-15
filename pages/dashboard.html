@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="/styles/reset.css" />
+    <link rel="stylesheet" href="/styles/dashboard.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body class="page">
+    <header>
+      <div class="header">
+        <div class="logo">
+          <a class="logoItems" href="/index.html">
+            <img
+              class="logoItemsImage"
+              src="/media/logo/logo.png"
+              alt="Bee Rich Logo"
+              width="60"
+            />
+            <span>Bee Rich</span>
+          </a>
+        </div>
+
+        <input type="checkbox" id="mode-toggle" />
+        <label
+          for="mode-toggle"
+          class="mode-switch"
+          aria-label="Toggle light/dark mode"
+        >
+          <i class="fa-solid fa-sun"></i>
+          <i class="fa-solid fa-moon"></i>
+        </label>
+
+        <div class="menu-wrapper">
+          <input type="checkbox" id="menu-toggle" />
+          <label for="menu-toggle" class="menu-icon">
+            <i class="fa-solid fa-bars"></i>
+          </label>
+
+          <nav class="menu" aria-label="Main menu">
+            <ul>
+              <li><a href="/index.html">Home</a></li>
+              <li><a href="#">Dashboard</a></li>
+              <li><a href="/pages/transactions.html">Transactions</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <div class="headingContainer">
+          <h1 class="heading">Dashboard</h1>
+        </div>
+        <div class="userContainer">
+          <img src="/media/images/users.svg" alt="User Image" width="50" />
+          <span class="userName">Ilia's Card</span>
+        </div>
+
+        <div class="cardsContainer">
+          <div class="cardContainer">
+            <div class="userInfo">
+              <i class="fa-solid fa-user"></i>
+              <span class="userName cardUserName">Ilia</span>
+            </div>
+
+            <div class="cardHeader">
+              <div class="info">
+                <span>ხელმისაწვდომი თანხა</span>
+                <span>12,000 Gel</span>
+              </div>
+              <div class="cardLogo">
+                <img
+                  src="/media/logo/logo.png"
+                  alt="Bee Rich Logo"
+                  width="60"
+                />
+              </div>
+            </div>
+
+            <div class="cardIban">
+              <span>IBAN****4312</span>
+              <img
+                src="/media/images/mastercardLogo.png"
+                alt="Mastercard Logo"
+                width="40"
+              />
+            </div>
+          </div>
+
+          <div class="cardContainer secCardContainer">
+            <div class="userInfo">
+              <i class="fa-solid fa-user"></i>
+              <span class="userName cardUserName">Ilia</span>
+            </div>
+
+            <div class="cardHeader">
+              <div class="info">
+                <span>ხელმისაწვდომი თანხა</span>
+                <span>24,000 Gel</span>
+              </div>
+              <div class="cardLogo">
+                <img
+                  src="/media/logo/logo.png"
+                  alt="Bee Rich Logo"
+                  width="60"
+                />
+              </div>
+            </div>
+
+            <div class="cardIban">
+              <span>IBAN****5403</span>
+              <img
+                src="/media/images/mastercardLogo.png"
+                alt="Mastercard Logo"
+                width="40"
+              />
+            </div>
+          </div>
+
+          <div class="cardContainer thirdCardContainer">
+            <div class="userInfo">
+              <i class="fa-solid fa-user"></i>
+              <span class="userName cardUserName">Ilia</span>
+            </div>
+
+            <div class="cardHeader">
+              <div class="info">
+                <span>ხელმისაწვდომი თანხა</span>
+                <span>24,000 Gel</span>
+              </div>
+              <div class="cardLogo">
+                <img
+                  src="/media/logo/logo.png"
+                  alt="Bee Rich Logo"
+                  width="60"
+                />
+              </div>
+            </div>
+
+            <div class="cardIban">
+              <span>IBAN****5403</span>
+              <img
+                src="/media/images/mastercardLogo.png"
+                alt="Mastercard Logo"
+                width="40"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2 class="progressHeading">Monthly Progress</h2>
+
+        <div class="progressBarContainer">
+          <h3 class="progressBarHeading">Current Month</h3>
+          <div class="progressCircle">
+            <span class="progressValue">3000 Gel</span>
+          </div>
+
+          <h3 class="progressBarHeading previousProgressBar">Previous Month</h3>
+          <div class="progressCircle">
+            <span class="progressValue">5000 Gel</span>
+          </div>
+        </div>
+
+        <div class="progressBarContainer">
+          <h3 class="progressBarHeading">Current Month</h3>
+          <div class="progressValue differentValue">3000 Gel</div>
+          <div class="progressBar">
+            <div class="progressFillBar" style="width: 60%"></div>
+          </div>
+
+          <h3 class="progressBarHeading previousProgressBar">Previous Month</h3>
+          <div class="progressValue differentValue">5000 Gel</div>
+          <div class="progressBar horizontalProgressBar">
+            <div class="progressFillBar" style="width: 100%"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
